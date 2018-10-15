@@ -10,8 +10,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>02_everything_is_an_object</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>05_init_and_clear</artifactId>
 
 
 </project>

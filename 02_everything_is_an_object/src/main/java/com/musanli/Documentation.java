@@ -11,6 +11,12 @@ import java.util.Date;
  * -encoding UTF-8 -charset UTF-8
  */
 public class Documentation {
+    public Documentation(){
+
+    }
+    public Documentation(int i){
+        this();
+    }
     /**
      * System.out.println(new Date());
      * <pre>
