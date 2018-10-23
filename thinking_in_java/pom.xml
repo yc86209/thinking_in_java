@@ -10,6 +10,8 @@
         <module>../02_everything_is_an_object</module>
         <module>05_init_and_clear</module>
         <module>../05_init_and_clear</module>
+        <module>../08_polymorphism</module>
+        <module>../10_inner_class</module>
     </modules>
     <packaging>pom</packaging>
 
