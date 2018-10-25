@@ -12,6 +12,7 @@
         <module>../05_init_and_clear</module>
         <module>../08_polymorphism</module>
         <module>../10_inner_class</module>
+        <module>../11_hold_object</module>
     </modules>
     <packaging>pom</packaging>
 
