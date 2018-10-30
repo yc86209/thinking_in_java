@@ -1,0 +1,6 @@
+Collection
+    List：所有的List实现都是有序的，所谓的顺序即为。每一个对象插入时下标是固定的
+        add（）：为向当前序列的最后末尾添加一个对象。
+    Set：不重复，hashCode、equals；一般的逻辑重写了hashCode必定会重写equals
+    Queue：按照排队规则来确定对象产生的顺序（通常与它们被插入的顺序相同）；
+Map：键值对
