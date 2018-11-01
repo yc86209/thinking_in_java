@@ -2,20 +2,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <name>thinking_in_java</name>
     <groupId>com.musanli</groupId>
     <artifactId>thinking_in_java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+
+
     <modules>
         <module>../02_everything_is_an_object</module>
-        <module>05_init_and_clear</module>
         <module>../05_init_and_clear</module>
         <module>../08_polymorphism</module>
         <module>../10_inner_class</module>
         <module>../11_hold_object</module>
+        <module>../12_exception_dispose</module>
+        <module>../13_character_string</module>
     </modules>
     <packaging>pom</packaging>
 
-    <name>keel_online</name>
-    <url>https://github.com/musanli/thinking_in_java.git</url>
+
+
+    <dependencies>
+        <dependency>
+            <artifactId>common_api</artifactId>
+            <groupId>com.musanli</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

@@ -9,8 +9,7 @@
         <relativePath>../thinking_in_java/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>11_hold_object</artifactId>
-
+    <packaging>jar</packaging>
 
 </project>

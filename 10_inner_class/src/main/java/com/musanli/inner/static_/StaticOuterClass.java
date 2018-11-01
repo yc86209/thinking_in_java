@@ -1,6 +1,5 @@
 package com.musanli.inner.static_;
 
-import sun.plugin2.main.client.WMozillaServiceDelegate;
 
 /**
  * @author: li_bin .

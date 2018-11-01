@@ -9,8 +9,7 @@
         <relativePath>../thinking_in_java/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>10_inner_class</artifactId>
-
+    <packaging>jar</packaging>
 
 </project>
