@@ -17,6 +17,7 @@
         <module>../11_hold_object</module>
         <module>../12_exception_dispose</module>
         <module>../13_character_string</module>
+        <module>../14_run_time_type_identification</module>
     </modules>
     <packaging>pom</packaging>
 
