@@ -1,7 +1,5 @@
 package com.musanli.class_;
 
-import javax.jws.WebService;
-
 /**
  * @author: li_bin .
  * @description: 测试类加载器 .
@@ -16,9 +14,9 @@ public class TestClass {
         System.out.println(TestClass.class.getName());
         System.out.println(TestClass.class.getSimpleName());
         System.out.println(TestClass.class.getCanonicalName());
-        System.out.println("testClassClass.isInterface()= "+testClassClass.isInterface());
-        System.out.println("testClassClass.isAnnotation()= "+testClassClass.isAnnotation());
-        System.out.println("testClassClass.getSuperclass().getName()= "+testClassClass.getSuperclass().getName());
+        System.out.println("testClassClass.isInterface()= " + testClassClass.isInterface());
+        System.out.println("testClassClass.isAnnotation()= " + testClassClass.isAnnotation());
+        System.out.println("testClassClass.getSuperclass().getName()= " + testClassClass.getSuperclass().getName());
         new TestClass();
     }
 
@@ -30,4 +28,6 @@ public class TestClass {
     /**   方法块，在类实力化的时候执行一次  */ {
         System.out.println("hello lump");
     }
+
+
 }

@@ -18,6 +18,7 @@
         <module>../12_exception_dispose</module>
         <module>../13_character_string</module>
         <module>../14_run_time_type_identification</module>
+        <module>../15_generic</module>
     </modules>
     <packaging>pom</packaging>
 
