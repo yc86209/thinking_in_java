@@ -8,7 +8,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
 
-
     <modules>
         <module>../02_everything_is_an_object</module>
         <module>../05_init_and_clear</module>
@@ -22,7 +21,17 @@
     </modules>
     <packaging>pom</packaging>
 
-
+    <profiles>
+        <profile>
+            <id>local</id>
+            <properties>
+                <profiles.active>local</profiles.active>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 
     <dependencies>
         <dependency>
