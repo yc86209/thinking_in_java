@@ -10,6 +10,8 @@ import net.sf.cglib.proxy.MethodProxy;
  * @author: li_bin .
  * @description: cglib代理 .
  * @create: 2018-11-08 14:37 .
+ * 静态代理：由程序员创建或特定工具自动生成源代码，再对其编译。在程序运行前，代理类的.class文件就已经存在了。
+ * 动态代理：在程序运行时，运用反射机制动态创建而成。
  */
 public class DenamicCgLib implements MethodInterceptor {
     private Object target;
@@ -43,6 +45,7 @@ class BookFacadeImpl1 {
         BookFacadeImpl1 bookCglib=(BookFacadeImpl1)cglib.getInstance(new BookFacadeImpl1());
         bookCglib.addBook();
     }
+    
     public void addBook() {
         System.out.println("增加图书的普通方法...");
     }
