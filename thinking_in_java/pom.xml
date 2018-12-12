@@ -18,6 +18,7 @@
         <module>../13_character_string</module>
         <module>../14_run_time_type_identification</module>
         <module>../15_generic</module>
+        <module>../16_array</module>
     </modules>
     <packaging>pom</packaging>
 

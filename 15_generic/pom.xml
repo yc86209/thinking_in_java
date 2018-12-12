@@ -4,8 +4,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <name>15_generic</name>
+    <modules>
+        <module>../00_source_java</module>
+    </modules>
     <artifactId>15_generic</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <parent>
         <artifactId>thinking_in_java</artifactId>

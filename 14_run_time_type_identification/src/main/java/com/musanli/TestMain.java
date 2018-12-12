@@ -1,5 +1,7 @@
 package com.musanli;
 
+import java.util.UUID;
+
 /**
  * @author: li_bin .
  * @description: .
@@ -247,5 +249,6 @@ public class TestMain {
             "spring.jedis.pool.max-wait=@spring.jedis.pool.max-wait@";
     public static void main(String[] args) {
         System.out.println(str);
+        System.out.println(UUID.randomUUID().toString().replace("-",""));
     }
 }

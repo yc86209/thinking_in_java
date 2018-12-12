@@ -9,10 +9,12 @@ public class LinkedStack<T> {
     private static class Node<U> {
         U item;
         Node<U> next;
+
         Node() {
             item = null;
             next = null;
         }
+
         Node(U item, Node<U> next) {
             this.item = item;
             this.next = next;
@@ -28,9 +30,10 @@ public class LinkedStack<T> {
     private void push(T item) {
         top = new Node<T>(item, top);
     }
-    public T pop(){
+
+    public T pop() {
         T result = top.item;
-        if(!top.end()){
+        if (!top.end()) {
             top = top.next;
         }
         return result;
@@ -42,7 +45,7 @@ public class LinkedStack<T> {
         ls.push("2");
         ls.push("3");
         String s;
-        while ((s=ls.pop()) != null){
+        while ((s = ls.pop()) != null) {
             System.out.println(s);
         }
     }
