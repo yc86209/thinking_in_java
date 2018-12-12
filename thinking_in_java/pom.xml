@@ -19,6 +19,7 @@
         <module>../14_run_time_type_identification</module>
         <module>../15_generic</module>
         <module>../16_array</module>
+        <module>../17_container_deep</module>
     </modules>
     <packaging>pom</packaging>
 
