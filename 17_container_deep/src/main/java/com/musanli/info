@@ -1,0 +1,14 @@
+java容器有四种
+    List
+        ArrayList：基于数组
+        linkedList:基于双向链表，同时实现了Queue
+    Set
+        HashSet:基于hash，查询最快
+        TreeSet:基于treeMap生成的具有排序功能的Set
+        LinkedHashSet:保持元素插入时顺序，
+
+    Queue - 队列
+        LinkedList:
+    Map
+        HashMap:
+        TreeMap:

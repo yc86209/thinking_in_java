@@ -25,7 +25,7 @@ public class DenamicProxy implements InvocationHandler {
         System.out.println("pre:-args" + Arrays.toString(args));
 
         System.out.println("start...");
-        Object invoke = method.invoke(proxy, args);
+        Object invoke = method.invoke(proxied, args);
         System.out.println("end...");
         return invoke;
     }

@@ -1,7 +1,13 @@
 package containers;//: containers/SlowMap.java
 // A Map implemented with ArrayLists.
-import java.util.*;
-import net.mindview.util.*;
+
+import java.util.AbstractMap;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
+import net.mindview.util.Countries;
 
 public class SlowMap<K,V> extends AbstractMap<K,V> {
   private List<K> keys = new ArrayList<K>();
