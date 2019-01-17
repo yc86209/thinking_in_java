@@ -20,6 +20,7 @@
         <module>../15_generic</module>
         <module>../16_array</module>
         <module>../17_container_deep</module>
+        <module>../18_io_stream</module>
     </modules>
     <packaging>pom</packaging>
 
