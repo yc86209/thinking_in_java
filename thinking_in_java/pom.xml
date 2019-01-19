@@ -21,6 +21,8 @@
         <module>../16_array</module>
         <module>../17_container_deep</module>
         <module>../18_io_stream</module>
+        <module>../19_enum</module>
+        <module>../20_annotation</module>
     </modules>
     <packaging>pom</packaging>
 
