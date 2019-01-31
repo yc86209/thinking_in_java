@@ -10,14 +10,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>20_annotation</artifactId>
-
+    <artifactId>21_thread</artifactId>
     <dependencies>
         <dependency>
             <groupId>com.musanli</groupId>
             <artifactId>common_api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
+
 </project>

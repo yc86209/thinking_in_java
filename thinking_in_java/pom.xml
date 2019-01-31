@@ -23,6 +23,7 @@
         <module>../18_io_stream</module>
         <module>../19_enum</module>
         <module>../20_annotation</module>
+        <module>../21_thread</module>
     </modules>
     <packaging>pom</packaging>
 
