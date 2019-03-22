@@ -24,6 +24,7 @@
         <module>../19_enum</module>
         <module>../20_annotation</module>
         <module>../21_thread</module>
+        <module>../22_swing</module>
     </modules>
     <packaging>pom</packaging>
 
